@@ -79,8 +79,8 @@ go run main.go
 5. Buat Pull Request
 
 ## Lisensi
-[Tentukan Lisensi Anda, misalnya MIT]
+[]
 
 ## Kontak
-[Nama Anda]
-[Email/Profil GitHub]
+[MYusuf A]
+[NXRts]
