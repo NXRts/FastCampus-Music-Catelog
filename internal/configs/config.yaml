@@ -1,0 +1,5 @@
+Service:
+  port: ":9999"
+
+database:
+  dataSourceName: "postgres://admin:root@localhost:5433/fastscampus_db?sslmode=disable"
