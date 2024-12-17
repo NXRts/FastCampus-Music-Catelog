@@ -1,0 +1,13 @@
+version: '3'
+services:
+    db:
+      image: postgres:latest
+      container_name: local-postgres-fast-campus
+      ports:
+        - "5433:5432"
+      environment:
+        POSTGRES_USER: admin
+        POSTGRES_PASSWORD: root
+        POSTGRES_DB: fastscampus_db
+      volumes:
+        - /home/nxrts-25/Public/Database/FastCampus/fastcampus_postgres/db:/var/lib/postgresql/data
