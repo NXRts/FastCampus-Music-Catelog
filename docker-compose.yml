@@ -10,4 +10,4 @@ services:
         POSTGRES_PASSWORD: root
         POSTGRES_DB: fastscampus_db
       volumes:
-        - /home/nxrts-25/Public/Database/FastCampus/fastcampus_postgres/db:/var/lib/postgresql/data
+        - /home/nxrts-25/Database/FastCampus/fastcampus_postgres/db:/var/lib/postgresql/data
