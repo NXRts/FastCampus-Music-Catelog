@@ -9,7 +9,7 @@ import (
 
 type repository interface {
 	CreateUser(model memberships.User) error
-	GetUser(email, username string, id uint) (*memberships.User, error)
+	GetUser(email, username string, id uint) (memberships.User, error)
 	
 }
 
