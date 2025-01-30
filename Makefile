@@ -1,2 +1,5 @@
 mock:
-	go generate -v ./...	
+	go generate -v ./...
+
+run:
+	go run cmd/main.go
