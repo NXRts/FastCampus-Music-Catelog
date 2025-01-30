@@ -7,7 +7,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func (h *Handler) SingUp(c *gin.Context) {
+func (h *Handler) SignUp(c *gin.Context) {
 	var request memberships.SingUpRequest
 	if err := c.ShouldBindJSON(&request); err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
